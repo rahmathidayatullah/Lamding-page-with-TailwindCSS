@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply border shadow w-full sm:w-72 h-96 pb-3 cursor-pointer rounded-lg overflow-hidden relative;
+}
+
+.card:hover .items-card {
+  opacity: 0;
+}
+
+.card-secondary {
+  background: linear-gradient(90deg, #ff372f -5.86%, #fa5e06 100%);
+}
+
+.orangeGradient {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    #f99500 74.39%
+  );
+}
+
+.card:hover .card-secondary {
+  opacity: 1;
+}
+

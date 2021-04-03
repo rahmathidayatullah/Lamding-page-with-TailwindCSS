@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/tailwind.css">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <title>Tailwind</title>
+</head>
+
+<body>
+
+    <!--wrap main -->
+    <div class="px-5 lg:px-10 xl:px-32 pt-14 pb-24">
+
+        <!-- jumbotron or header -->
+        <div class="sm:h-screen">
+            <div class="flex flex-wrap items-center justify-between">
+                <!-- brand title -->
+                <h1 class="text-2xl font-semibold">Codeat<span class="font-normal">home</span></h1>
+                <!-- list item -->
+                <ul class="flex items-center font-normal text-base sm:text-xl mt-3 sm:mt-0">
+                    <li class="mr-5 md:mr-10 xl:mr-14 cursor-pointer">Passions</li>
+                    <li class="mr-5 md:mr-10 xl:mr-14 cursor-pointer">Activities</li>
+                    <li><button class="py-2 px-4 rounded-lg text-white bg-purple font-semibold">Contact me</button></li>
+                </ul>
+            </div>
+            <!-- text and image header -->
+            <div class="flex flex-col sm:flex-row items-center justify-between mt-14">
+                <div class="text-center sm:text-left">
+                    <h1 class="text-2xl sm:text-4xl font-normal">Hi! I Am</h1>
+                    <h1 class="text-3xl sm:text-5xl font-semibold my-4">Rahmat hidayatullah</h1>
+                    <button class="py-2 px-4 rounded-lg text-white bg-purple font-semibold">Join Telelgram
+                        Group</button>
+                </div>
+                <!-- image people -->
+                <div class="relative flex justify-end mt-14 sm:mt-0">
+                    <!-- start purple -->
+                    <img class="absolute -top-8 right-5" src="assets/icon/Star 3.png" alt="">
+                    <!-- start yellow -->
+                    <img class="absolute top-20" src="assets/icon/Star 4.png" alt="">
+                    <img class="w-2/5 left-1/2 sm:left-0 transform -translate-x-1/2 sm:transform-none sm:w-4/5"
+                        src="assets/icon/Photo.png" alt="">
+
+                    <!-- start purple -->
+                    <img class="absolute bottom-5 left-5" src="assets/icon/Star 3.png" alt="">
+                    <!-- start yellow -->
+                    <img class="absolute bottom-20 left-0" src="assets/icon/Star 4.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- additional passiions -->
+        <div class="mt-10">
+            <h1 class="text-center text-3xl sm:text-4xl font-normal">Additional<span class="font-semibold">
+                    passions</span></h1>
+            <div class="grid lg:gap-10 xl:gap-20 grid-cols-12 mt-9">
+                <!-- card 1 -->
+                <div
+                    class="mt-4 sm:mt-0 col-span-12 md:flex md:flex-col md:items-center md:justify-center border lg:col-span-4 shadow-lg px-9 pt-9 pb-6 rounded-2xl">
+                    <img class="h-40" src="assets/icon/undraw_Stock_prices_re_js33 1.png" alt="">
+                    <h1 class="text-2xl whitespace-nowrap text-center font-semibold mt-4">Frontend<span
+                            class="font-normal">
+                            developer</span>
+                    </h1>
+                    <p class="font-normal text-lg text-center">(React, vue, angular)</p>
+                </div>
+                <!-- card 2 -->
+                <div
+                    class="mt-4 sm:mt-0 col-span-12 md:flex md:flex-col md:items-center md:justify-center border lg:col-span-4 shadow-lg px-9 pt-9 pb-6 rounded-2xl">
+                    <img class="h-40" src="assets/icon/undraw_fill_form_re_cwyf 1.png" alt="">
+                    <h1 class="text-2xl whitespace-nowrap text-center font-semibold mt-4">Frontend<span
+                            class="font-normal">
+                            developer</span>
+                    </h1>
+                    <p class="font-normal text-lg text-center">(React, vue, angular)</p>
+                </div>
+                <!-- card 3 -->
+                <div
+                    class="mt-4 sm:mt-0 col-span-12 md:flex md:flex-col md:items-center md:justify-center border lg:col-span-4 shadow-lg px-9 pt-9 pb-6 rounded-2xl">
+                    <img class="h-40" src="assets/icon/undraw_Metrics_re_6g90 1.png" alt="">
+                    <h1 class="text-2xl whitespace-nowrap text-center font-semibold mt-4">Frontend<span
+                            class="font-normal">
+                            developer</span>
+                    </h1>
+                    <p class="font-normal text-lg text-center">(React, vue, angular)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- my daily activity -->
+        <div class="mt-16 sm:mt-28">
+            <h1 class="text-left text-3xl sm:text-4xl font-normal">My daily<span class="font-semibold">
+                    activities</span>
+            </h1>
+
+            <div
+                class="shadow-lg border rounded-lg sm:pl-4 pb-4 pt-3 flex flex-col text-center sm:text-left sm:flex-row items-center w-full sm:w-4/5 mt-10">
+                <!-- image -->
+                <img src="assets/icon/undraw_mathematics_4otb 1.png" alt="">
+                <!-- text -->
+                <div class="ml-0 sm:ml-5">
+                    <h1 class="font-semibold text-xl sm:text-2xl">Learning about updated technology</h1>
+                    <p class="text-sm font-normal mt-3">To become familiar with new technologies,<br />
+                        i need to try to keep up with the latest tech jargon.</p>
+                </div>
+
+            </div>
+            <div
+                class="shadow-lg border rounded-lg sm:pl-4 pb-4 pt-3 flex flex-col text-center sm:text-left sm:flex-row items-center w-full sm:w-4/5 mt-10">
+                <!-- image -->
+                <img src="assets/icon/undraw_game_day_ucx9 1.png" alt="">
+                <!-- text -->
+                <div class="ml-0 sm:ml-5">
+                    <h1 class="font-semibold text-xl sm:text-2xl">Playing game when getting tired</h1>
+                    <p class="text-sm font-normal mt-3">There are many reasons why i could be getting<br>
+                        tired from playing video games.</p>
+                </div>
+
+            </div>
+            <div
+                class="shadow-lg border rounded-lg sm:pl-4 pb-4 pt-3 flex flex-col text-center sm:text-left sm:flex-row items-center w-full sm:w-4/5 mt-10">
+                <!-- image -->
+                <img src="assets/icon/undraw_adventure_4hum 1.png" alt="">
+                <!-- text -->
+                <div class="ml-0 sm:ml-5">
+                    <h1 class="font-semibold text-xl sm:text-2xl">Traveling with my friends when weekend</h1>
+                    <p class="text-sm font-normal mt-3">One thing is certain, traveling is awesome and<br />
+                        always worth it.</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
